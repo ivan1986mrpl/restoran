@@ -1,0 +1,65 @@
+.header {
+    height: 100vh;
+    background: url('../img/bg1.jpg') center (center/cover)no-repeat;
+}
+.header-line {
+    padding-top: 50px;
+    display: flex; /* 1для того, чтобы все элементы распологались в линию */
+    align-items: center; /* 2после этого выравниваются по линии главного элемента */
+    justify-content: space-around;/* 4растянуть блоки по ширине header */
+}
+.nav-item {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;    
+    color: #FFFFFF;
+    margin-right: 25px;
+    transition: color 0.3s linear;
+    &:hover {
+        color: #FF7400;
+    }
+}
+.card {
+    position: relative;
+    border-right: 1px solid #FFFFFF;
+    padding-right: 10px;
+    height: 50px;
+}
+.card-img {
+    position: absolute;
+    top: 18px;
+    right: 7px;
+}
+.num {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s linear;
+    &:hover {
+        color: #FF7400;
+    }
+}
+.phone-holder {
+    display: flex;/* 3для того, чтобы все элементы распологались в линию */
+    align-items: center;
+}
+.phone-text {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+.button {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 19px;
+    background: #FF7400;
+    transition: background-color 0.3s linear;
+    &:hover {
+        background-color: #934b10;
+    }
+}

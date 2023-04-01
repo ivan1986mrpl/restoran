@@ -1,0 +1,44 @@
+.promo {
+    background: url('../img/bg1.jpg')center (center/cover) no-repeat;
+    min-height: 800px;
+    &__wrapper {
+        margin-top: 175px;
+        width: 570px;
+        height: 294px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__descr {
+        position: relative;
+        margin-top: 12px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        color: #FFFFFF;
+        &::after {
+            content: '';
+            position: absolute;
+            width: 61px;
+            height: 2px;
+            left: -72px;
+            top: 50%;
+            background: #C4C4C4;
+        }
+        &::before {
+            content: '';
+            position: absolute;
+            width: 61px;
+            height: 2px;
+            right: -72px;
+            top: 50%;
+            background: #C4C4C4;
+        }
+    }
+
+    &__btn {
+        margin-top: 31px;
+    }
+}
+

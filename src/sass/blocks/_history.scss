@@ -1,0 +1,108 @@
+
+.history {
+
+	&__wrapper {
+        display: flex;
+        justify-content: space-between;
+	}
+
+	&__item {
+        width: 349px;
+        min-height: 328px;
+        background: #FFFFFF;
+        box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+        transition: 0.3s all;
+        &:hover {
+            transform: scale(1.10);
+        }			
+	}
+
+	&__icon {
+        margin: 0 auto;
+        margin-top: 48px;
+        width: 87px;
+        height: 87px;
+        &_img {
+            width: 100%;
+		}
+	}
+
+	&__title {
+        margin-top: 5px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 30px;
+        color: #2C2C2C;
+        span {
+            color: #BC9060;
+        }
+	}
+
+	&__descr {
+        margin-top: 20px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 30px;
+        text-align: center;
+        color: #656363;
+	}
+
+	&__promo {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+	}
+    &__prwr {
+        width: 450px;
+    }
+
+	&__promotitle {
+        text-align: center;
+	}
+
+	&__promodescr {
+        margin-top: 21px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        color: #656363;
+	}
+
+	&__promowrap {
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-between;
+	}
+
+	&__promoitem {
+	}
+
+	&__promonumber {
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 54px;
+        text-align: center;
+        color: #BC9060;
+	}
+
+	&__promotext {
+        margin-top: 13px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+        color: #000000;
+	}
+
+    &__photo {
+        width: 539px;
+        height: 498px;
+        img {
+            width: 100%;
+        }
+    }
+}
+

@@ -1,0 +1,97 @@
+.header {
+    width: 100%;
+
+    &__line {
+        padding-top: 50px;
+        display: flex; /* 1для того, чтобы все элементы распологались в линию */
+        align-items: center; /* 2после этого выравниваются по линии главного элемента */
+        justify-content: space-around;/* 4растянуть блоки по ширине header */
+    }
+
+    &__logo {
+    }
+
+    &__menu {
+    }
+
+    &__list {
+        display: flex;
+    }
+
+    &__item {
+        list-style-type: none;
+    }
+
+    &__link {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;    
+        color: #FFFFFF;
+        margin-right: 25px;
+        transition: color 0.3s linear;
+        &:hover {
+            color: $bcg-orange;
+        }
+    }
+
+    &__card {
+        position: relative;
+        border-right: 1px solid #FFFFFF;
+        padding-right: 10px;
+        height: 50px;
+    }
+
+    &__cardimg {
+        position: absolute;
+        top: 13px;
+        right: 21px;
+        cursor: pointer;
+    }
+
+    &__contacts {
+    }
+
+    &__phone {
+        display: flex;/* 3для того, чтобы все элементы распологались в линию */
+        align-items: center;
+    }
+
+    &__phoneimg {
+    }
+
+    &__number {
+        color: #FFFFFF;
+        text-decoration: none;
+        font-weight: 700;
+        transition: color 0.3s linear;
+        &:hover {
+            color: $span-orange;
+        }
+    }
+
+    &__text {
+        color: #FFFFFF;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+/*     &__btn {
+        border-radius: 5px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 14px 19px;
+        background: $bcg-orange;
+        transition: background-color 0.3s linear;
+        &:hover {
+            background-color: $span-orange;
+        }
+    } */
+
+    &__button {
+    }
+}
+
