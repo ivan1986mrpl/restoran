@@ -1,0 +1,54 @@
+.cards {
+
+}
+.card {   
+    margin-top: -70px;
+    margin-right: 31px;
+    padding: 0 10px;
+    width: 349px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+    transition: 0.3s all;
+    &:hover {
+        transform: scale(1.10);
+    }
+
+    &__wrapper {    /* card-holder */
+        display: flex;
+        justify-content: center;
+    }
+
+	&__image {
+        display: flex;
+        justify-content: center;
+        padding-top: 31px;
+        
+	}
+
+		&__img {
+            width: 100%;
+		}
+
+    &__title {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 30px;
+        color: #2C2C2C;
+        span {
+            color: #BC9060;
+        }
+    }
+
+	&__descr {    
+        text-align: center;
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 30px;
+        color: #656363;
+	}
+}
+

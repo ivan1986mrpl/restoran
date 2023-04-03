@@ -9,6 +9,11 @@
     }
 
     &__logo {
+        width: 100px;
+        height: 68px;
+        img {
+            width: 100%;
+        }
     }
 
     &__menu {
